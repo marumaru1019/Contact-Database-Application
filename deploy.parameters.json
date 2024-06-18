@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "name": {
+        "value": "gh-copilot-sample"
+      },
+      "location": {
+        "value": "Japan East"
+      },
+      "appServicePlanName": {
+        "value": "ASP-GitHubCopilotChallenges-bf8d"
+      },
+      "appServicePlanSku": {
+        "value": "S1"
+      },
+      "appServicePlanTier": {
+        "value": "Standard"
+      }
+    }
+}
